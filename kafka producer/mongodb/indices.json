@@ -1,0 +1,492 @@
+[{
+  "1": {
+    "RecordType": "VK",
+    "IndexCode": "001",
+    "SecurityID": "001",
+    "IndexName": "ת\"א-125"
+  },
+  "2": {
+    "RecordType": "VK",
+    "IndexCode": "002",
+    "SecurityID": "002",
+    "IndexName": "ת\"א-35"
+  },
+  "3": {
+    "RecordType": "VK",
+    "IndexCode": "003",
+    "SecurityID": "003",
+    "IndexName": "ת\"א גלובל-בלוטק"
+  },
+  "4": {
+    "RecordType": "VK",
+    "IndexCode": "004",
+    "SecurityID": "004",
+    "IndexName": "ת\"א-90"
+  },
+  "5": {
+    "RecordType": "VK",
+    "IndexCode": "005",
+    "SecurityID": "005",
+    "IndexName": "ת\"א בנקים-5"
+  },
+  "7": {
+    "RecordType": "VK",
+    "IndexCode": "007",
+    "SecurityID": "007",
+    "IndexName": "ת\"א-SME60"
+  },
+  "8": {
+    "RecordType": "VK",
+    "IndexCode": "008",
+    "SecurityID": "008",
+    "IndexName": "ת\"א -פיננסים"
+  },
+  "9": {
+    "RecordType": "VK",
+    "IndexCode": "009",
+    "SecurityID": "009",
+    "IndexName": "ת\"א נדל\"ן"
+  },
+  "11": {
+    "RecordType": "VK",
+    "IndexCode": "011",
+    "SecurityID": "011",
+    "IndexName": "ת\"א-צמיחה"
+  },
+  "12": {
+    "RecordType": "VK",
+    "IndexCode": "012",
+    "SecurityID": "012",
+    "IndexName": "ת\"א -מעלה"
+  },
+  "13": {
+    "RecordType": "VK",
+    "IndexCode": "013",
+    "SecurityID": "013",
+    "IndexName": "תל- דיב"
+  },
+  "14": {
+    "RecordType": "VK",
+    "IndexCode": "014",
+    "SecurityID": "014",
+    "IndexName": "תל בונד 20"
+  },
+  "15": {
+    "RecordType": "VK",
+    "IndexCode": "015",
+    "SecurityID": "015",
+    "IndexName": "תל בונד 40"
+  },
+  "16": {
+    "RecordType": "VK",
+    "IndexCode": "016",
+    "SecurityID": "016",
+    "IndexName": "תל בונד 60"
+  },
+  "17": {
+    "RecordType": "VK",
+    "IndexCode": "017",
+    "SecurityID": "017",
+    "IndexName": "תל בונד שקלי בריבית קבועה"
+  },
+  "18": {
+    "RecordType": "VK",
+    "IndexCode": "018",
+    "SecurityID": "018",
+    "IndexName": "ת\"א -ביומד"
+  },
+  "19": {
+    "RecordType": "VK",
+    "IndexCode": "019",
+    "SecurityID": "019",
+    "IndexName": "ת\"א-טכנולוגיה"
+  },
+  "20": {
+    "RecordType": "VK",
+    "IndexCode": "020",
+    "SecurityID": "020",
+    "IndexName": "ת\"א-נפט וגז"
+  },
+  "21": {
+    "RecordType": "VK",
+    "IndexCode": "021",
+    "SecurityID": "021",
+    "IndexName": "ת\"א ביטוח-פלוס"
+  },
+  "22": {
+    "RecordType": "VK",
+    "IndexCode": "022",
+    "SecurityID": "022",
+    "IndexName": "ת\"א-תקשורת וטכנולוגיות מידע"
+  },
+  "23": {
+    "RecordType": "VK",
+    "IndexCode": "023",
+    "SecurityID": "023",
+    "IndexName": "תל בונד צמודות"
+  },
+  "24": {
+    "RecordType": "VK",
+    "IndexCode": "024",
+    "SecurityID": "024",
+    "IndexName": "תל בונד צמודות - יתר"
+  },
+  "25": {
+    "RecordType": "VK",
+    "IndexCode": "025",
+    "SecurityID": "025",
+    "IndexName": "תל בונד צמודות - בנקים"
+  },
+  "26": {
+    "RecordType": "VK",
+    "IndexCode": "026",
+    "SecurityID": "026",
+    "IndexName": "תל בונד - תשואות"
+  },
+  "27": {
+    "RecordType": "VK",
+    "IndexCode": "027",
+    "SecurityID": "027",
+    "IndexName": "תל בונד - מאגר"
+  },
+  "28": {
+    "RecordType": "VK",
+    "IndexCode": "028",
+    "SecurityID": "028",
+    "IndexName": "ת\"א טק-עילית"
+  },
+  "29": {
+    "RecordType": "VK",
+    "IndexCode": "029",
+    "SecurityID": "029",
+    "IndexName": "תל בונד - ריבית משתנה"
+  },
+  "30": {
+    "RecordType": "VK",
+    "IndexCode": "030",
+    "SecurityID": "030",
+    "IndexName": "תל בונד - לא צמודות"
+  },
+  "31": {
+    "RecordType": "VK",
+    "IndexCode": "031",
+    "SecurityID": "031",
+    "IndexName": "תל בונד - תשואות שקלי"
+  },
+  "32": {
+    "RecordType": "VK",
+    "IndexCode": "032",
+    "SecurityID": "032",
+    "IndexName": "ת\"א-רימון"
+  },
+  "33": {
+    "RecordType": "VK",
+    "IndexCode": "033",
+    "SecurityID": "033",
+    "IndexName": "ת\"א-SME150"
+  },
+  "34": {
+    "RecordType": "VK",
+    "IndexCode": "034",
+    "SecurityID": "034",
+    "IndexName": "תל בונד - Dלובל"
+  },
+  "35": {
+    "RecordType": "VK",
+    "IndexCode": "035",
+    "SecurityID": "035",
+    "IndexName": "תל בונד שקלי-50"
+  },
+  "36": {
+    "RecordType": "VK",
+    "IndexCode": "036",
+    "SecurityID": "036",
+    "IndexName": "תל בונד-צמודות 0-3"
+  },
+  "37": {
+    "RecordType": "VK",
+    "IndexCode": "037",
+    "SecurityID": "037",
+    "IndexName": "תל בונד-צמודות 3-5"
+  },
+  "38": {
+    "RecordType": "VK",
+    "IndexCode": "038",
+    "SecurityID": "038",
+    "IndexName": "תל בונד-צמודות 5-15"
+  },
+  "39": {
+    "RecordType": "VK",
+    "IndexCode": "039",
+    "SecurityID": "039",
+    "IndexName": "תל בונד-שקלי 0-3"
+  },
+  "40": {
+    "RecordType": "VK",
+    "IndexCode": "040",
+    "SecurityID": "040",
+    "IndexName": "תל בונד-שקלי 3-5"
+  },
+  "41": {
+    "RecordType": "VK",
+    "IndexCode": "041",
+    "SecurityID": "041",
+    "IndexName": "תל בונד-שקלי 5-15"
+  },
+  "42": {
+    "RecordType": "VK",
+    "IndexCode": "042",
+    "SecurityID": "042",
+    "IndexName": "תל בונד-צמודות מעלה"
+  },
+  "43": {
+    "RecordType": "VK",
+    "IndexCode": "043",
+    "SecurityID": "043",
+    "IndexName": "תל בונד-שקלי מעלה"
+  },
+  "44": {
+    "RecordType": "VK",
+    "IndexCode": "044",
+    "SecurityID": "044",
+    "IndexName": "ת\"א סקטור-באלאנס"
+  },
+  "45": {
+    "RecordType": "VK",
+    "IndexCode": "045",
+    "SecurityID": "045",
+    "IndexName": "תל בונד שקלי-בנקים וביטוח"
+  },
+  "46": {
+    "RecordType": "VK",
+    "IndexCode": "046",
+    "SecurityID": "046",
+    "IndexName": "תל בונד צמודות-נדל\"ן"
+  },
+  "47": {
+    "RecordType": "VK",
+    "IndexCode": "047",
+    "SecurityID": "047",
+    "IndexName": "תל בונד-צמודות  A"
+  },
+  "48": {
+    "RecordType": "VK",
+    "IndexCode": "048",
+    "SecurityID": "048",
+    "IndexName": "תל בונד-צמודות  AA-AAA"
+  },
+  "49": {
+    "RecordType": "VK",
+    "IndexCode": "049",
+    "SecurityID": "049",
+    "IndexName": "תל בונד-שקלי  A"
+  },
+  "50": {
+    "RecordType": "VK",
+    "IndexCode": "050",
+    "SecurityID": "050",
+    "IndexName": "תל בונד-שקלי  AA-AAA"
+  },
+  "51": {
+    "RecordType": "VK",
+    "IndexCode": "051",
+    "SecurityID": "051",
+    "IndexName": "ת\"א-תעשייה"
+  },
+  "52": {
+    "RecordType": "VK",
+    "IndexCode": "052",
+    "SecurityID": "052",
+    "IndexName": "תל בונד-דולר"
+  },
+  "53": {
+    "RecordType": "VK",
+    "IndexCode": "053",
+    "SecurityID": "053",
+    "IndexName": "ת\"א-פמילי"
+  },
+  "54": {
+    "RecordType": "VK",
+    "IndexCode": "054",
+    "SecurityID": "054",
+    "IndexName": "ת\"א-תשתיות אנרגיה"
+  },
+  "55": {
+    "RecordType": "VK",
+    "IndexCode": "055",
+    "SecurityID": "055",
+    "IndexName": ""
+  },
+  "56": {
+    "RecordType": "VK",
+    "IndexCode": "056",
+    "SecurityID": "056",
+    "IndexName": ""
+  },
+  "57": {
+    "RecordType": "VK",
+    "IndexCode": "057",
+    "SecurityID": "057",
+    "IndexName": ""
+  },
+  "168": {
+    "RecordType": "VK",
+    "IndexCode": "168",
+    "SecurityID": "168",
+    "IndexName": "ת\"א  All-Share"
+  },
+  "184": {
+    "RecordType": "VK",
+    "IndexCode": "184",
+    "SecurityID": "184",
+    "IndexName": ""
+  },
+  "185": {
+    "RecordType": "VK",
+    "IndexCode": "185",
+    "SecurityID": "185",
+    "IndexName": ""
+  },
+  "187": {
+    "RecordType": "VK",
+    "IndexCode": "187",
+    "SecurityID": "187",
+    "IndexName": ""
+  },
+  "188": {
+    "RecordType": "VK",
+    "IndexCode": "188",
+    "SecurityID": "188",
+    "IndexName": ""
+  },
+  "330": {
+    "RecordType": "VK",
+    "IndexCode": "330",
+    "SecurityID": "330",
+    "IndexName": ""
+  },
+  "598": {
+    "RecordType": "VK",
+    "IndexCode": "598",
+    "SecurityID": "598",
+    "IndexName": "VTA35"
+  },
+  "601": {
+    "RecordType": "VK",
+    "IndexCode": "601",
+    "SecurityID": "601",
+    "IndexName": ""
+  },
+  "602": {
+    "RecordType": "VK",
+    "IndexCode": "602",
+    "SecurityID": "602",
+    "IndexName": ""
+  },
+  "604": {
+    "RecordType": "VK",
+    "IndexCode": "604",
+    "SecurityID": "604",
+    "IndexName": ""
+  },
+  "605": {
+    "RecordType": "VK",
+    "IndexCode": "605",
+    "SecurityID": "605",
+    "IndexName": ""
+  },
+  "637": {
+    "RecordType": "VK",
+    "IndexCode": "637",
+    "SecurityID": "637",
+    "IndexName": ""
+  },
+  "646": {
+    "RecordType": "VK",
+    "IndexCode": "646",
+    "SecurityID": "646",
+    "IndexName": ""
+  },
+  "658": {
+    "RecordType": "VK",
+    "IndexCode": "658",
+    "SecurityID": "658",
+    "IndexName": ""
+  },
+  "690": {
+    "RecordType": "VK",
+    "IndexCode": "690",
+    "SecurityID": "690",
+    "IndexName": ""
+  },
+  "700": {
+    "RecordType": "VK",
+    "IndexCode": "700",
+    "SecurityID": "700",
+    "IndexName": ""
+  },
+  "701": {
+    "RecordType": "VK",
+    "IndexCode": "701",
+    "SecurityID": "701",
+    "IndexName": ""
+  },
+  "702": {
+    "RecordType": "VK",
+    "IndexCode": "702",
+    "SecurityID": "702",
+    "IndexName": ""
+  },
+  "703": {
+    "RecordType": "VK",
+    "IndexCode": "703",
+    "SecurityID": "703",
+    "IndexName": ""
+  },
+  "704": {
+    "RecordType": "VK",
+    "IndexCode": "704",
+    "SecurityID": "704",
+    "IndexName": ""
+  },
+  "727": {
+    "RecordType": "VK",
+    "IndexCode": "727",
+    "SecurityID": "727",
+    "IndexName": ""
+  },
+  "728": {
+    "RecordType": "VK",
+    "IndexCode": "728",
+    "SecurityID": "728",
+    "IndexName": ""
+  },
+  "729": {
+    "RecordType": "VK",
+    "IndexCode": "729",
+    "SecurityID": "729",
+    "IndexName": ""
+  },
+  "730": {
+    "RecordType": "VK",
+    "IndexCode": "730",
+    "SecurityID": "730",
+    "IndexName": ""
+  },
+  "740": {
+    "RecordType": "VK",
+    "IndexCode": "740",
+    "SecurityID": "740",
+    "IndexName": ""
+  },
+  "800": {
+    "RecordType": "VK",
+    "IndexCode": "800",
+    "SecurityID": "800",
+    "IndexName": ""
+  },
+  "_id": "04012022",
+  "timestamp": {
+    "$date": "2022-01-04T00:00:00.000Z"
+  }
+}]

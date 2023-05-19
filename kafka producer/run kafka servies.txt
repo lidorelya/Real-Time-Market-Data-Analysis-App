@@ -1,0 +1,17 @@
+cd 'C:\Users\ASUS\kafka_2.12-3.4.0\bin'
+.\windows\zookeeper-server-start.bat ..\config\zookeeper.properties
+
+cd 'C:\Users\ASUS\kafka_2.12-3.4.0\bin'
+.\windows\kafka-server-start.bat ..\config\server.properties
+
+
+
+netstat -ano | findstr :9092
+netstat -ano | findstr :2181
+
+
+cd 'C:\Users\ASUS\kafka_2.13-3.4.0'
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+cd 'C:\Users\ASUS\kafka_2.13-3.4.0'
+.\bin\windows\kafka-server-start.bat .\config\server.properties
