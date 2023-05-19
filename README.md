@@ -13,4 +13,4 @@ Below is the diagram of the data flow from the provider to the database and to t
 ![Alt Text](https://github.com/lidorelya/RealTimeMarketDataAnalysisApp/blob/484adbb2a1ca0ba3c2094c5ed34d00d749b7b3e7/data_flow_diagram.png)
 
 
-![Alt Text](https://drive.google.com/file/d/1IffC1B9LYbTs0O9mIpcTXmufLeG4tB4v/view?usp=share_link)
+[video_url](https://drive.google.com/file/d/1IffC1B9LYbTs0O9mIpcTXmufLeG4tB4v/view?usp=share_link)
