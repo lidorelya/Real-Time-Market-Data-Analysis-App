@@ -21,10 +21,6 @@ if document is None:
     collection.insert_one({"_id": data_date, "timestamp": timestamp, "LastRecordIndicator": ""})
     document = collection.find_one({"_id": data_date})
 
-
-# delete collection
-# x = collection.delete_many({})
-
 def order_of_trading_derivatives(msg):
     if 'RecordType' not in msg:
         return
@@ -37,9 +33,6 @@ def order_of_trading_derivatives(msg):
     if security_id in document:
         # write updating code
         # Update the document with a new value in an array field using the $push operator
-        # query = {"_id": document['_id']}
-        # update = {"$push": {"existingArrayField": "newValue"}}
-        # collection.update_one(query, update)
         pass
     else:
         # Select the document you want to update
