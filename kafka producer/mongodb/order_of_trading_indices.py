@@ -29,24 +29,3 @@ def order_of_trading_indices():
         new_document.update(indices_data[0])
         collection.insert_one(new_document)
         document = collection.find_one({"_id": data_date})
-
-# def order_of_trading_indices(msg):
-#     if 'RecordType' not in msg:
-#         return
-#     if msg['RecordType'] != "VK":
-#         return
-#
-#     security_id = msg["SecurityID"]
-#
-#     # Check if the Security ID exists in the document
-#     if security_id in document:
-#         # write updating code
-#         pass
-#     else:
-#         keys_to_select = ['RecordType', 'IndexCode', 'SecurityID', 'IndexName']
-#         selected_dict = {key: msg[key] for key in keys_to_select if key in msg}
-#         # Select the document you want to update
-#         query = {"_id": document['_id']}
-#         # Update the document with a new field using the $set operator
-#         update = {"$set": {str(int(security_id)): selected_dict}}
-#         collection.update_many(query, update)
