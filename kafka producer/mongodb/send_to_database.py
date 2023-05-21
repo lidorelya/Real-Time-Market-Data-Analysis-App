@@ -20,8 +20,6 @@ dbName = cluster['HistoricalMarketData']
 
 
 def send_to_database(msg, kafka_msg_metadata):
-    # msg = {'RecordType': 'VA', 'LastRecordIndicator': 'E', 'Numerator': '1801', 'MarketID': 'מניות', 'SecurityID': '09981534', 'SymbolEnglish': 'MAAVAR34', 'SymbolHebrew': 'מעבר43', 'NameEnglish': 'MAAVAR 34', 'NameHebrew': 'מעבר 43', 'Sector': '097', 'SectorName': 'השקעה ואחזקות', 'SubSector': '001', 'SubSectorName': 'השקעה ואחזקות', 'SecurityType': '01', 'SecuritySubType': '01', 'SecurityTypeName': 'מניה רגילה', 'TA125Index': '0', 'TA35Index': '0', 'CurrencyCode': '', 'CompanyID': '001290', 'ISINCode': 'IL001281534'}
-
     security_id = msg['SecurityID']
 
     msg_topic = kafka_msg_metadata[0]
@@ -49,12 +47,7 @@ def send_to_database(msg, kafka_msg_metadata):
 
     collection.insert_many([
         {
-            # "metadata": {'security_id': security_id, "security_name": security_name, "security_type": "FX"},
             "metadata": {'security_id': security_id, 'topic_name': msg_topic},
-            # "timestamp": ISODate("2021-05-18T00:00:00.000Z"),
-            # "timestamp": datetime.datetime.strptime(f'{doc["Date"].replace(".","/")} 00:00', '%d/%m/%Y %H:%M'),
-            # "timestamp": datetime.datetime.strptime(f'04/01/2022 00:00:01', '%d/%m/%Y %H:%M:%S'),
-            # "timestamp": datetime.datetime.utcnow(),
             "timestamp": dt_object,
             "kafkaRecordMetadata": {'topic': msg_topic,
                                     'partition': msg_partition,
