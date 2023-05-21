@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "RealTimeMarketDataAnalysisApp/",
+  "name": "real-time market data analysis application/",
   "icons": [
     {
       "src": "favicon.ico",
