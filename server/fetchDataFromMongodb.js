@@ -3,11 +3,7 @@ import dotenv from 'dotenv'
 
 dotenv.config();
 
-// const url = 'mongodb://192.168.31.240:27017/';
-// const url = 'mongodb://192.168.31.240:27017/?directConnection=true&serverSelectionTimeoutMS=5000&appName=mongosh+1.8.2';
 const url = process.env.SERVER_URL;
-
-
 const client = new MongoClient(url);
 
 function formatDate(date) {
