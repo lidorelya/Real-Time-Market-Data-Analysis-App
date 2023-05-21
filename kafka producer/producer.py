@@ -65,35 +65,35 @@ create_producer(topic_name, bootstrap_servers[0], keys)
 
 
 
-##############################################################################################
+# ##############################################################################################
 
-from create_producer import create_producer
-from mongodb.get_keys_by_document import get_keys_by_document
+# from create_producer import create_producer
+# from mongodb.get_keys_by_document import get_keys_by_document
 
-uri = "mongodb://127.0.0.1:27017/?directConnection=true&appName=mongosh+1.8.2"  # local new
-db_name = 'daily_metadata'
-data_date = "04012022"
-bootstrap_servers = ['192.168.31.240:9092']
+# uri = "mongodb://127.0.0.1:27017/?directConnection=true&appName=mongosh+1.8.2"  # local new
+# db_name = 'daily_metadata'
+# data_date = "04012022"
+# bootstrap_servers = ['192.168.31.240:9092']
 
-topic_name = 'Indices'
-server_set_indices = {"uri": uri, "db_name": db_name, "collection_name": "indices"}
-keys = get_keys_by_document(server_set_indices, data_date)
-# create_new_topic(bootstrap_servers, topic_name, 1, len(keys))
-create_producer(topic_name, bootstrap_servers[0], keys)
+# topic_name = 'Indices'
+# server_set_indices = {"uri": uri, "db_name": db_name, "collection_name": "indices"}
+# keys = get_keys_by_document(server_set_indices, data_date)
+# # create_new_topic(bootstrap_servers, topic_name, 1, len(keys))
+# create_producer(topic_name, bootstrap_servers[0], keys)
 
-##############################################################################################
+# ##############################################################################################
 
-from create_producer import create_producer
-from mongodb.get_keys_by_document import get_keys_by_document
+# from create_producer import create_producer
+# from mongodb.get_keys_by_document import get_keys_by_document
 
-uri = "mongodb://127.0.0.1:27017/?directConnection=true&appName=mongosh+1.8.2"  # local new
-db_name = 'daily_metadata'
-data_date = "04012022"
-bootstrap_servers = ['192.168.31.240:9092']
+# uri = "mongodb://127.0.0.1:27017/?directConnection=true&appName=mongosh+1.8.2"  # local new
+# db_name = 'daily_metadata'
+# data_date = "04012022"
+# bootstrap_servers = ['192.168.31.240:9092']
 
 
-topic_name = 'Derivatives'
-server_set_derivatives = {"uri": uri, "db_name": db_name, "collection_name": "derivatives"}
-keys = get_keys_by_document(server_set_derivatives, data_date)
-# create_new_topic(bootstrap_servers, topic_name, 1, len(keys))
-create_producer(topic_name, bootstrap_servers[0], keys)
+# topic_name = 'Derivatives'
+# server_set_derivatives = {"uri": uri, "db_name": db_name, "collection_name": "derivatives"}
+# keys = get_keys_by_document(server_set_derivatives, data_date)
+# # create_new_topic(bootstrap_servers, topic_name, 1, len(keys))
+# create_producer(topic_name, bootstrap_servers[0], keys)
