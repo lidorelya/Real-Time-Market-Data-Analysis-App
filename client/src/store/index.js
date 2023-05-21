@@ -39,38 +39,6 @@ const reducerFn = (state = { InitialData: {}, LiveData: [], Equity: {}, Index: {
         return { ...state, elementClicked: action.data }
     }
 
-/*     if (action.type === 'addElement'){
-        let newElementName = action.data
-        return { ...state, elementClicked: {...state.elementClicked, [newElementName]: true} }
-    }
-
-    if (action.type === 'elementClicked'){
-        // return { ...state, elementClicked: action.data }
-        let elementName = action.data[0]
-        let elementValue = action.data[1]
-        return { ...state, elementClicked: {...state.elementClicked, [elementName]: elementValue} }
-    }
-
-    if (action.type === 'elementClickedNew'){
-        // return { ...state, elementClicked: action.data }
-        let elementName = action.data
-        //let elementValue = action.data[1]
-        if (elementName in state.elementClicked){
-            return { ...state, elementClicked: {...state.elementClicked, [elementName]: ![state.elementClicked.elementName]} }
-        }else{
-            return { ...state, elementClicked: {...state.elementClicked, [elementName]: true} }
-        }
-    } */
-
-/*     if (action.type === 'elementClickedNew'){
-        let elementName = action.data
-        if (elementName in state.elementClickedNew){
-            return { ...state, elementClickedNew: {...state.elementClickedNew, [elementName]: ![state.elementClickedNew.elementName]} }
-        }else{
-            return { ...state, elementClickedNew: {...state.elementClickedNew, [elementName]: true} }
-        }
-    } */
-
     if (action.type === 'elementClickedNew'){
         return { ...state, elementClickedNew: action.data }
     }
