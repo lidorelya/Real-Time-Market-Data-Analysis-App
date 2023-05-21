@@ -16,3 +16,5 @@ Below is the diagram of the data flow from the provider to the database and to t
 Demonstration of the App:
 1. [video_url](https://drive.google.com/file/d/1IgOa5sSLaB1T-hjVqTZYY4goSSdwQoEO/view?usp=sharing)
 2. [video_url](https://drive.google.com/file/d/1IfwrC9x6MR5WFDEw1VCno4WFEpW6fOGW/view?usp=sharing)
+
+![Alt Text](https://github.com/lidorelya/RealTimeMarketDataAnalysisApp/blob/d9efbd56c01e000e1b54542c71d31fe2cb0d5e95/screenshot.png)
