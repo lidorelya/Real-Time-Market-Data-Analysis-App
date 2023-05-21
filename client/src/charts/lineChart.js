@@ -19,10 +19,10 @@ const socket = io('http://localhost:3003');
 registerLocale('he', he);
 
 // User information
-const userEmail = "elyalidor@gmail.com"
-const userPassword = "LIDOR79"
+const userEmail = "a123456@gmail.com"
+const userPassword = "a123456"
 
-const app = new Realm.App({ id: 'real-time-market-data-tloej' });
+const app = new Realm.App({ id: 'type-here-the-id' });
 const credentials = Realm.Credentials.emailPassword(userEmail, userPassword);
 
 const selectedSecurityID = '99999999'; // SecurityID to display
