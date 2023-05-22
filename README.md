@@ -3,7 +3,7 @@ A web application for real-time financial market data analysis. The project simu
 Development technologies:
 * Client side - React.js
 * Server side - Node.js and Python
-* Data stream - Kafka
+* Data stream - Apache Kafka
 * Database - MongoDB
 
 For the purpose of the demonstration, I used a Windows machine as a server and a data server and with a Mac (Linux) machine to run the application.
